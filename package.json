@@ -1,0 +1,32 @@
+{
+  "name": "baclang",
+  "version": "1.0.0",
+  "description": "JavaScript implementation of the BACLang interpreter",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baclang/javascript.git"
+  },
+  "keywords": [
+    "language",
+    "interpreter",
+    "constraint",
+    "logic"
+  ],
+  "author": "Caleb Martinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baclang/javascript/issues"
+  },
+  "homepage": "https://github.com/baclang/javascript#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0"
+  }
+}
